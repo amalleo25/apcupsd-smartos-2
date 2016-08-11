@@ -1,7 +1,9 @@
 #Work in progress
 
 # apcupsd-smartos
-Install apcupsd on smartos global zone
+How to install apcupsd in the smartos global zone. 
+
+This guide focuses on how to setup apcupsd as a network slave. In my case, I have apcupsd installed on a raspberry pi which is connected to the UPS via USB and sends messgaes to the slaves.
 
 ## Setup zone
 Create a new zone using the base image
