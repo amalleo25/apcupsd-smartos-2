@@ -8,9 +8,11 @@ This guide focuses on how to setup apcupsd as a network slave. In my case, I hav
 ## Setup zone
 Create a new zone using the base image
 
-Run pkgin up
+zlogin uuid
 
-Run pkgin in gmake
+pkgin up
+
+pkgin in gmake
 
 cd /tmp
 
