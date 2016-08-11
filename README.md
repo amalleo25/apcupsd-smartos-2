@@ -9,8 +9,11 @@ At the time of this write up, 3.14.14 is the latest version of apcupsd.
 
 http://www.apcupsd.org/
 
-## Create zone
-Create a new zone using the base image
+## Create new zone
+
+imgadm import 088b97b0-e1a1-11e5-b895-9baa2086eb33
+
+Copy and paste zone.json to provision new zone
 
 ## Setup acpupsd binary
 
