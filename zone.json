@@ -1,0 +1,17 @@
+vmadm create << EOF
+{
+    "brand": "joyent",
+    "image_uuid": "088b97b0-e1a1-11e5-b895-9baa2086eb33",
+    "ram": 512,
+    "quota": 5,
+    "resolvers": ["192.168.1.1"],
+    "nics": [
+        {
+            "nic_tag": "admin",
+            "ip": "192.168.1.49",
+            "netmask": "255.255.255.0",
+            "gateway": "192.168.1.1"
+        }
+    ]
+}
+EOF
