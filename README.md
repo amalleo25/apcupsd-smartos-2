@@ -16,23 +16,5 @@ Copy and paste zone.json to provision new zone
 
 zlogin uuid
 
-## Setup acpupsd binary
-
-pkgin -y up
-
-pkgin -y in gmake
-
-cd /tmp
-
-wget http://downloads.sourceforge.net/project/apcupsd/apcupsd%20-%20Stable/3.14.14/apcupsd-3.14.14.tar.gz
-
-tar -xvf apcupsd-3.14.14
-
-cd apcupsd-3.14.14
-
-configure ...
-
-make
-
-make install
+## Install apcupsd
 
