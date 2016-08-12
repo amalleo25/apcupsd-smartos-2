@@ -32,9 +32,9 @@
                 </loctext>
             </common_name>
             <documentation>
-                <manpage title='apcupsd' section='8' manpath='/opt/local/usr/share/man' />
-                <manpage title='apcaccess' section='8' manpath='/opt/local/usr/share/man' />
-                <manpage title='apctest' section='8' manpath='/opt/local/usr/share/man' />
+                <manpage title='apcupsd' section='8' manpath='/opt/local/man' />
+                <manpage title='apcaccess' section='8' manpath='/opt/local/man' />
+                <manpage title='apctest' section='8' manpath='/opt/local/man' />
                 <doc_link name='online manual' uri='http://www.apcupsd.org/manual/manual.html' />
             </documentation>
         </template>
