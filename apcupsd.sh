@@ -16,7 +16,7 @@
 ###     Modified for use with SMF  15 December 2008, Robert Hartzell
 ###	Comments/Feedback:	<[hidden email]>
 ###
-#
+### Removed lock file
 
 set -o xtrace
 
