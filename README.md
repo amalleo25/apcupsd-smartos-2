@@ -2,7 +2,7 @@
 
 # apcupsd-smartos
 
-This script will setup apcupsd as a network slave. In my case, I have apcupsd installed on a raspberry pi which is connected to the UPS via USB and talks to the slaves.
+This script will setup apcupsd in the global zone as a network slave. In my case, I have apcupsd installed on a raspberry pi which is connected to the UPS via USB and talks to the slaves.
 
 Tested on 20160721T174418Z
 
