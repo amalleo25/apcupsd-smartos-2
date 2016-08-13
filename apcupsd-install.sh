@@ -12,7 +12,6 @@ cp ./smartos-setup.sh /opt/local/lib/svc/method
 #Import base-64-lts 15.4.1 smartos zone-dataset 2016-03-04
 imgadm import 088b97b0-e1a1-11e5-b895-9baa2086eb33
 
-#vmadm create -f ./zone.json
 uuid=$(vmadm create -f zone.json 2>&1 | cut -d " " -f 4)
 
 cp ./zone-install.sh /zones/$uuid/root/root
