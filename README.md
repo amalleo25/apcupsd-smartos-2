@@ -10,7 +10,7 @@ At the time of this write up, 3.14.14 is the latest version of apcupsd.
 
 http://www.apcupsd.org/
 
-##Quickstart
+##Installation
 Unzip and copy to global zone
 ```
 cd apcupsd-smartos
