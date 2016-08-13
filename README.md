@@ -16,7 +16,7 @@ Unzip and copy to global zone
 cd apcupsd-smartos
 sh apcupsd-install.sh
 ```
-Edit apcupsd.conf and change DEVICE line to apcupsd server, i.e DEVICE 192.168.1.114:3551
+Edit apcupsd.conf and change DEVICE line to apcupsd server (e.g, DEVICE 192.168.1.114:3551)
 ```
 vi /opt/local/etc/apcupsd/apcupsd.conf
 ```
@@ -26,7 +26,7 @@ vi /opt/local/etc/apcupsd/apccontrol
 ```
 ${SHUTDOWN} -y -g0 -i5
 
-Reboot to load and start the service
+Reboot SmartOS to load and start the service
 ```
 init 6
 ```
