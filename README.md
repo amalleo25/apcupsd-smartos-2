@@ -15,3 +15,8 @@ http://www.apcupsd.org/
 sh apcupsd-install.sh
 ```
 
+Reboot to load and start the service
+```
+init 6
+```
+
