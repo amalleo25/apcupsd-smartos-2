@@ -16,7 +16,7 @@ Unzip and copy to global zone
 cd apcupsd-smartos
 sh apcupsd-install.sh
 ```
-Edit apcupsd.conf and change DEVICE line to apcupsd server (e.g, DEVICE 192.168.1.114:3551)
+Edit apcupsd.conf and change DEVICE line to apcupsd master (e.g, DEVICE 192.168.1.114:3551)
 ```
 vi /opt/local/etc/apcupsd/apcupsd.conf
 ```
