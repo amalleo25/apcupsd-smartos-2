@@ -23,8 +23,8 @@ set -o xtrace
 . /lib/svc/share/smf_include.sh
 
 APCPID=/var/run/apcupsd.pid
-POWERFAILDIR=/opt/custom/etc/apcupsd
-SBINDIR=/opt/custom/sbin
+POWERFAILDIR=/opt/local/etc/apcupsd
+SBINDIR=/opt/local/sbin
 
 case "$1" in
     start)
