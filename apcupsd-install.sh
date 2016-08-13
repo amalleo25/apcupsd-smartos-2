@@ -4,9 +4,6 @@
 mkdir -p /opt/custom/smf /opt/local/lib/svc/method /opt/local/sbin /opt/local/etc/apcupsd \
 /opt/local/man/man5 /opt/local/man/man8 2>/dev/null
 
-#chgrp sys /opt/local/sbin
-#chgrp sys /opt/local/etc
-
 cp ./apcupsd.xml /opt/custom/smf
 cp ./smartos-setup.xml /opt/custom/smf
 cp ./apcupsd.sh /opt/local/lib/svc/method
