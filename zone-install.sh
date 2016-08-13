@@ -8,7 +8,7 @@ pkgin -y in gcc49 gmake
 #cd /tmp
 
 wget http://downloads.sourceforge.net/project/apcupsd/apcupsd%20-%20Stable/3.14.14/apcupsd-3.14.14.tar.gz -P /tmp
-tar -xzf apcupsd-3.14.14.tar.gz -C /tmp
+tar -xzf /tmp/apcupsd-3.14.14.tar.gz -C /tmp
 
 cd /tmp/apcupsd-3.14.14
 
