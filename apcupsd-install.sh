@@ -23,5 +23,3 @@ cp ./zone-install.sh /zones/$uuid/root/root
 zlogin $uuid sh zone-install.sh
 
 #vmadm delete $uuid
-
-#svcadm enable apcupsd
